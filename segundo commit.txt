@@ -3,3 +3,6 @@ void promedio(){
  	int cont;
  	L*actual=(L*)malloc(sizeof(L));
         for(int x =0;x<L->ultimo){
+		suma=suma+L->arreglo[x];
+        }
+        
